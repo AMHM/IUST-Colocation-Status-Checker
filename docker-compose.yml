@@ -4,6 +4,6 @@ services:
     build: .
     container_name: iust-status
     ports:
-      - "8000:8000"
+      - "6631:8000"
     restart: always
 
